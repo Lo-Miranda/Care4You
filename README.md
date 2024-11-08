@@ -4,7 +4,7 @@ Este repositório apresenta o MVP de um aplicativo móvel, apresentado como proj
 Care4You é um app dedicado a encurtar o caminho entre pacientes e profissionais da saúde. O público em foco é o usuário idoso ou com dificuldades de deslocamento, que pode usar o app para ser consultado presencialmente em seu próprio endereço.
 O aplicativo é construído em padrão Model-View-Controller (MVC) e utiliza as tecnologias PHP e JavaScript no back-end e HTML, CSS e Bootstrap no front-end.
 
-# Fluxo de navegação
+## Fluxo de navegação
 O fluxo de navegação deste MVP busca atender as necessidades de dois stakeholders: o paciente e o profissional.
 
 O usuário "Paciente":

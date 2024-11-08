@@ -1,0 +1,501 @@
+    html, body {
+        height: 100%; 
+        margin: 0; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9; 
+    }
+ 
+    .container_prestador {
+        text-align: center;
+        color: #333; 
+        font-size: 24px; 
+        padding: 10px 10px 100px; 
+        border: 2px dashed #ccc; 
+        border-radius: 10px; 
+        background-color: #fff; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+        
+    
+    input.form-updatepage2 {
+        font-size: 10px !important; 
+        padding: 05px; 
+        
+    }
+    
+    .btn {
+        margin: 5px; 
+    }
+    
+    
+
+    .container {       
+        text-align: center;
+        color: #333;
+        font-size: 24px;
+        padding: 20px;
+        border: 2px  #ccc; 
+        border-radius: 10px; 
+        background-color: #fff; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }   
+
+    h3 {
+        color: #333; 
+        margin-bottom: 20px; 
+    }
+
+    p {
+        font-size: 18px; 
+        color: #555; 
+    }
+
+    @media (max-width: 576px) {
+        .container {
+            padding: 15px; 
+        }
+
+        h3 {
+            font-size: 1.5em; 
+        }
+
+        p {
+            font-size: 16px; 
+        }
+    }
+
+    h1 {
+        color: #333; 
+        margin-bottom: 20px; 
+    }
+
+    h3, h4{
+        color: #333;
+    }    
+
+    .btn-paciente {
+        background-color: black; 
+        margin: 10px auto;      
+        width: 80%; 
+        font-size: 18px;
+        border-radius: 5px; 
+        text-decoration: none; 
+        color: #fff; 
+        transition: background-color 0.3s; 
+    }
+
+    .btn-paciente:hover {
+        background-color: #ada0a0; 
+        
+    }
+
+    .btn-prestador {
+        background-color: grey; 
+        margin: 10px auto;        
+        width: 80%; 
+        font-size: 18px; 
+        border-radius: 5px; 
+        text-decoration: none; 
+        color: #fff; 
+        transition: background-color 0.3s; 
+    }
+
+    .btn-prestador:hover {
+        background-color: #403838;
+        color: white;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="password"] {
+    width: 100%; 
+    max-width: 350px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+input[type="submit"] {
+    background-color: grey; 
+    color: white; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background-color: grey; 
+}
+
+#input-container {
+    max-width: 300px; 
+    margin: auto; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 3px; 
+    font-size: 14px;
+}
+    
+    input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc; 
+        border-radius: 10px; 
+        transition: border-color 0.3s; 
+    }
+    input[type="text"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+        border-color: #28a745; 
+        outline: none; 
+    }
+    input[type="submit"] {
+        background: #000; 
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background: #333;
+    }
+
+    /* Modal */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-content {
+        background-color: white; 
+        padding: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+        text-align: center;
+    }
+    .close {
+        cursor: pointer;
+        float: right;
+    }
+    button {
+        background: #000; 
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+
+    /* Especialista */
+    .expandable {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #333;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: border-color 0.3s, color 0.3s;
+        background-color: transparent;
+    }
+    
+    
+    .expandable:hover {
+        border-color: grey; 
+        color: grey; 
+    }
+
+    /* Perfil médico */
+    .btn-perfil-medico {
+        background: #000; 
+        color: white;
+        
+    }
+
+    .btn-voltar-perfil {        
+        background-color: #403838;
+        color: white;
+    }
+
+    /* Página em construção */
+    .message {
+        text-align: center;
+        color: #333; 
+        font-size: 24px;
+        padding: 20px;
+        border: 2px dashed #ccc; 
+        border-radius: 10px;
+        background-color: #fff; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .container_cadastro{
+        max-width: 400px; 
+        margin: auto;
+        padding: 20px; 
+        border: 1px solid #ccc; 
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .form_cadastro_prestador {
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    .container_cadastro_prestador {
+        max-width: 300px; 
+        margin: auto;
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 8px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+        background: #fff; 
+    }
+    h2 {
+        text-align: center; 
+        font-size: 1.2em; 
+        margin-bottom: 10px; 
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%; 
+        padding: 8px;
+        margin: 5px 0; 
+        border: 1px solid #ddd;
+        border-radius: 4px; 
+        box-sizing: border-box;
+        font-size: 0.9em; 
+    }
+    input[type="submit"] {
+        input[type="submit"] {
+            width: auto; 
+            padding: 5px 10px; 
+            margin-top: 5px; 
+            background: black; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-size: 10px; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+    }
+    input[type="submit"]:hover {
+        background: grey; 
+    }
+
+    /* Editar perfil prestador: */
+
+    .container_editar_perfil_prestador {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    
+    .form-group_ed_perf_prest {
+        margin-bottom: 5px;
+    }
+    
+    .label_ed_perf_prest {
+        font-size: 0.65em;
+        margin-bottom: 2px;
+    }
+    
+    input.form-control_ed_perf_prest {
+        height: 25px;
+        font-size: 0.65em;
+        width: 100%;
+        max-width: 100%;
+        padding: 2px;
+    }
+    
+    .btn_ed_perf_prest {
+        font-size: 0.65em;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+    
+    .btn-secondary {
+        font-size: 0.65em;
+    }
+
+    /* Página de data */
+
+    .text-center-data {
+        text-align: center; 
+    }
+    .table-responsive-data {
+        width: 100%; 
+        margin: 20px auto; 
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+     /* Gerenciamento de consultas */
+    
+    .tabs_geren {
+        display: flex;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 05px;
+    }
+    .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        background-color: #ccc; /* Cor das abas cinza */
+        font-size: 14px;
+        margin-right: 5px;
+        border-radius: 5px 5px 0 0;
+    }
+    .tab.active {
+        background-color: grey; /* Cor ativa */
+    }
+    .container_geren {
+        max-width: 800px;
+        margin: auto;
+    }
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card h2 {
+        margin: 0;
+        font-size: 14px;
+        color: #333;
+    }
+    .card p {
+        margin: 0;
+        color: #555;
+        font-size: 14px;
+    }
+    .tab-content {
+        display: none;
+    }
+    .tab-content.active {
+        display: block;
+    }
+    .pagination_geren{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .page-button {
+        padding: 3px 5px;
+        margin: 0 5px;
+        border: 1px solid #007BFF;
+        background: #fff;
+        color: #007BFF;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .page-button.active {
+        background: grey;
+        color: #fff;
+    }
+  
+    /* Data */
+    .containerData {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    /* Estilo da Cabeçalho */
+    .headerData h3 {
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 40px;
+        font-weight: bold;
+    }
+
+    /* Estilo da área do calendário com rolagem */
+    .calendar-wrapper-data {
+        max-height: 193px; /* Altura máxima da área de datas */
+        overflow-y: auto;  /* Barra de rolagem quando necessário */
+        border: 1px solid #ddd; /* Borda para visualização */
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 20px;  /* Um pequeno espaçamento se necessário */
+    }
+
+    /* Estilo da tabela onde as datas são exibidas */
+    .calendar-table-data {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .calendar-table-data td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .calendar-table-data .expandable {
+        cursor: pointer;
+        color: grey;
+        
+    }
+
+    .calendar-table-data .expandable:hover {
+        color: #0056b3;
+    }
+
+    /* Estilo do botão Voltar */
+    .footer-data {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .footer-data a {
+        background-color: #524b4a;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .footer-data a:hover {
+        background-color: #3e3a39;
+    }
+    
+    
+
+
+    
